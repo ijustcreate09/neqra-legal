@@ -1,0 +1,8 @@
+:root{--ink:#0B2A4A;--sub:#33465C;--acc:#007BFF;--bg:#F0F8FF;--card:#FFFFFF}
+@media (prefers-color-scheme:dark){:root{--ink:#F0F8FF;--sub:#C2FDFF;--acc:#66CCFF;--bg:#071A2F;--card:#0B2A4A}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Noto Sans","Noto Sans Ethiopic",system-ui,sans-serif}
+main{max-width:760px;margin:0 auto;padding:40px 16px 64px}
+.card{background:var(--card);border-radius:18px;padding:28px 24px;box-shadow:0 10px 30px rgba(11,42,74,.08)}
+h1{font-size:28px;margin:0 0 4px}h2{font-size:19px;margin:28px 0 6px}p,li{color:var(--sub)}a{color:var(--acc)}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;margin-bottom:22px}.dot{width:12px;height:12px;border-radius:4px;background:var(--acc)}
+nav a{margin-right:16px}small{color:var(--sub)}
